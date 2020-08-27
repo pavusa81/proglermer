@@ -10,6 +10,9 @@
         </div>  
     </div>
     <div class="row">
+        <p class="mx-auto text-center font-weight-bold mb-4 ">{{ $user->name }}</p>
+    </div>
+    <div class="row">
         <div class="mx-auto">
         @include('records.index')
         </div>
