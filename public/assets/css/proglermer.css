@@ -5,11 +5,6 @@
     text-align: center;
 }
 
-.logo-big {
-    font-size: 250px;
-    font-family: 'Lobster', cursive;
-    
-}
 
 .logo-midium {
     font-size: 120px;
@@ -21,6 +16,13 @@
     font-family: 'Lobster', cursive;
     text-align: center;
     letter-spacing: 2px;
+}
+
+.para{
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
 }
 
 
@@ -52,9 +54,33 @@
     margin-left: 1rem;
 }
 
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
-  outline: dark;
+input:focus, input[type]:focus, .uneditable-input:focus {
+  outline: 0;
   box-shadow: none;
-  border: 2px solid black;
+  border: 1px solid black;
   background-color: white;
+}
+
+.text-area:focus {
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.user-ul {
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    color:black;
+}
+
+a:hover {
+  color: rgba( 0, 0, 0, 0.3);
+}
+
+a:active {
+  color: black;
 }
